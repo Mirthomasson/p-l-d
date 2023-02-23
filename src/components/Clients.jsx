@@ -1,16 +1,9 @@
-// import { clients } from "../constants";
-// import styles from "../style";
+import styles from "../style";
 
-// const Clients = () => (
-//   <section className={`${styles.flexCenter} my-4`}>
-//     <div className={`${styles.flexCenter} flex-wrap w-full`}>
-//       {clients.map((client) => (
-//         <div key={client.id} className={`flex-1 ${styles.flexCenter} sm:min-w-[192px] min-w-[120px] m-5`}>
-//           <img src={client.logo} alt="client_logo" className="sm:w-[192px] w-[100px] object-contain" />
-//         </div>
-//       ))}
-//     </div>
-//   </section>
-// );
+const Clients = () => (
+  <section className={`${styles.flexCenter} my-4 `}>
+    <div class="fb-page" data-href="https://www.facebook.com/people/Premier-Land-Development-LLC/100088992085987/" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"></div>
+  </section>
+);
 
-// export default Clients;
+export default Clients;

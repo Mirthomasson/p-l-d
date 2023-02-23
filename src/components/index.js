@@ -2,7 +2,7 @@ import Navbar from "./Navbar";
 import Billing from "./About";
 import Projects from "./Projects";
 import Services from "./Services";
-// import Clients from "./Clients";
+import Clients from "./Clients";
 import Contact from "./Contact";
 // import Stats from "./Stats";
 import Footer from "./Footer";
@@ -14,7 +14,7 @@ export {
   Billing,
   Projects,
   Services,
-  // Clients,
+  Clients,
   Contact,
   // Stats,
   Footer,
