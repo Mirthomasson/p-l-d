@@ -1,4 +1,4 @@
-import { facebook, airbnb, binance, coinbase, dropbox, pond, road, excavator  } from "../assets";
+import { facebook, pond, road, excavator  } from "../assets";
 
 export const navLinks = [
   {

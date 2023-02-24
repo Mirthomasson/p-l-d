@@ -1,9 +1,9 @@
 import styles from "../style";
-import { skid, free } from "../assets";
+import { cat, free } from "../assets";
 
 const Hero = () => {
   return (
-    <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
+    <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY} -mt-14 mx-12`}>
       <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-6 px-6`}>
         <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
           <img src={free} alt="discount" className="w-[32px] h-[32px]" />
@@ -13,7 +13,7 @@ const Hero = () => {
           </p>
         </div>
 
-        <div className="flex flex-row justify-between items-center w-full">
+        <div className="flex flex-row justify-around items-center w-full">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[42px] text-white ss:leading-[100.8px] leading-[75px]">
             Premier Land Development<br className="sm:block hidden" />{" "}
             <span className="text-gradient">Excavating & Grading</span>{" "}
@@ -31,8 +31,8 @@ const Hero = () => {
         </p>
       </div>
 
-      <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative px-6`}>
-        <img src={skid} alt="skid" className="w-[600px] h-[auto] relative z-[5] rounded-[10px]" />
+      <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
+        <img src={cat} alt="cat" className="w-[750px] h-[auto] relative z-[5] rounded-[10px]" />
 
         {/* gradient start */}
         <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
