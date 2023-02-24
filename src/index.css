@@ -21,12 +21,12 @@
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
-    #FFFAF0 0.89%,
-    #F8D1CD 17.23%,
-    #F0A8AB 42.04%,
-    #E97E88 55.12%,
-    #E15566 71.54%,
-    #DA2C43 100%
+    #def9fa 0.89%,
+    #bef3f5 17.23%,
+    #9dedf0 42.04%,
+    #7de7eb 55.12%,
+    #5ce1e6 71.54%,
+    #33bbcf 100%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -37,12 +37,12 @@
 .bg-blue-gradient {
   background: linear-gradient(
     157.81deg,
-    #FFFAF0 -43.27%,
-    #F8D1CD -21.24%,
-    #F0A8AB 12.19%,
-    #E97E88 29.82%,
-    #E15566 51.94%,
-    #DA2C43 90.29%
+    #def9fa -43.27%,
+    #bef3f5 -21.24%,
+    #9dedf0 12.19%,
+    #7de7eb 29.82%,
+    #5ce1e6 51.94%,
+    #33bbcf 90.29%
   );
 }
 
@@ -278,7 +278,7 @@ option, select, input, .textarea-div textarea {
 	font-size: 28px;
 	padding: 0;
 	margin-bottom: 1.25em;
-	color: #f0320c	;
+	color: #33bbcf	;
 }
 
 label {
@@ -333,18 +333,18 @@ textarea {
 }
 
 .btn-glow:hover {
-	box-shadow: 0px 0px 10px #f0320c;
+	box-shadow: 0px 0px 10px #33bbcf;
 }
 
 .form-btn:hover { 
-	background: #f0320c ;
+	background: #33bbcf ;
 }
 
 .form-container input:focus,
 .form-container select:focus,
 .form-container textarea:focus  {
 	animation: continuous-glow 800ms ease-out infinite alternate;
-	box-shadow: 0 0 5px #f0320c, inset 0 0 5px #f0320c, 0 2px 0 #000;
+	box-shadow: 0 0 5px #33bbcf, inset 0 0 5px #33bbcf, 0 2px 0 #000;
 	color: rgb(255, 229, 195);
 }
 
@@ -374,7 +374,7 @@ textarea {
 
 
 .closeButton {
-  color: red;
+  color: #33bbcf;
   float: right;
   font-size: 22px;
   padding-right: 1em;
