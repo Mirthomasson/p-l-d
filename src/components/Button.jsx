@@ -25,7 +25,7 @@ function Button({ styles }) {
       <div className="z-10">
       <section class="form-container">
 	  <button className="closeButton" onClick={() => setIsOpen(false)}>X</button>
-		<form class="">
+		<form>
 			<h1 class="form-header">Request a Quote</h1>
 			<div class="form">
 				<div class="form-item form-item1">

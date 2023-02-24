@@ -22,7 +22,7 @@ const Services = () =>  (
   <section id="services" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-      Quality Workmanship and<br className="sm:block hidden" /><span className="text-gradient"> Customer Satisfaction.</span>
+      Quality Workmanship &<br className="sm:block hidden" /><span className="text-gradient"> Customer Satisfaction.</span>
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
       Premier Land Development offers a full line of services throughout select locations in the greater VA area. Our services include:
