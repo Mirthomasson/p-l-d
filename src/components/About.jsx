@@ -17,12 +17,10 @@ const About = () => (
         20+ Years of Experience<br className="sm:block hidden" /> 
       </h2>
       <p className={`${styles.paragraph} max-w-[670px] mt-5`}>
-      Honesty, integrity, and hard work are important to us and are integrated into each project. 
-      We are customer driven and customer satisfaction is our number one goal. 
-      With a wide range of services, and competitive prices, we can fulfill all of your grading and excavating needs.
+      Excavation & Grading services at affordable prices.
       </p>
-      <p className={`${styles.paragraph} max-w-[670px] mt-5`}>Managed utility crews and heavy civil crews. Started from the bottom as a laborer and moved up the ladder.</p>
-      <p className={`${styles.paragraph} max-w-[670px] mt-5`}>From laborer to rough grade operator to a finish grade operator, foreman to senior foreman, assistant superintendent to superintendent. Open to all the aspects of the industry, even underground utilities.</p> 
+      <p className={`${styles.paragraph} max-w-[670px] mt-5`}>We specialize in Residential & Commercial Site Development, encompassing all phases that ensure the success of any new or existing construction project from start to finish.</p>
+      <p className={`${styles.paragraph} max-w-[670px] mt-5`}>Our services include Land Clearing, Fine Grading, Soil Erosion, Level Building Sites, Roadway, Forestry Management, Farm Management, Storm Drainage & Retention Ponds, Pond Remediation, Land Mulching, Basements, Under Drain Installation, Demolition, Hauling.</p> 
 
     </div>
   </section>
