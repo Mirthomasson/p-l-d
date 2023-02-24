@@ -25,32 +25,32 @@ function Button({ styles }) {
       <div className="z-10">
       <section class="form-container">
 	  <button className="closeButton" onClick={() => setIsOpen(false)}>X</button>
-		<form>
+		<form action="https://formsubmit.co/jglover@premierlanddevelopment.com" method="POST">
 			<h1 class="form-header">Request a Quote</h1>
 			<div class="form">
 				<div class="form-item form-item1">
-					<label for="firstname">First Name</label>
-					<input id="firstname" type="text" name="firstname"/>
+					<label for="First Name">First Name</label>
+					<input id="firstname" type="text" name="First Name"/>
 				</div>
 				
 				<div class="form-item form-item1">
-					<label for="lastname">Last Name</label>
-					<input for="lastname" type="text" name="lastname"/>
+					<label for="Last Name">Last Name</label>
+					<input for="lastname" type="text" name="Last Name"/>
 				</div>
 				
 				<div class="form-item form-item2">
-					<label for="phonenumber">Phone Number</label>
-					<input id="phonenumber" type="tel"name="phonenumber"/>
+					<label for="Phone Number">Phone Number</label>
+					<input id="phonenumber" type="tel"name="Phone Number"/>
 				</div>
 
 				<div class="form-item form-item2">
-					<label for="email">Email</label>
-					<input id="email" type="email" name="email"/>
+					<label for="Email">Email</label>
+					<input id="email" type="email" name="Email"/>
 				</div>
 
 				<div class="form-item form-item3">
-					<label for="time frame">Time Frame</label>
-					<select name="time frame">
+					<label for="Time Frame">Time Frame</label>
+					<select name="Time Frame">
 						<option value="week-1">1 week</option>
 						<option value="week-2">2 weeks</option>
 						<option value="week-3">3 weeks</option>
@@ -60,19 +60,19 @@ function Button({ styles }) {
 				</div>
 
 				<div class="form-item form-item3">
-					<label for="has website">Returning Customer?</label>
-					<select name="has website">
+					<label for="Returning Customer">Returning Customer?</label>
+					<select name="Returning Customer?">
 						<option value="form-no">No</option>
 						<option value="form-yes">Yes</option>
 					</select>
 				</div>
 				
 				<div class="textarea-div form-item4">
-					<label for="message">Job Description</label>
-					<textarea id="message" type="text" name="message" placeholder="What would you have me do?"></textarea>
+					<label for="Message">Job Description</label>
+					<textarea id="message" type="text" name="Message" placeholder="What would you have me do?"></textarea>
 				</div>
 				<div class="btn-container">
-					<input id="submit" class="btn btn-glow form-btn" type="submit" name="submit" value="Request Quote"/>
+					<input id="submit" class="btn btn-glow form-btn" type="submit" name="Submit" value="Request Quote"/>
 				</div>
 			</div>
 		</form>
