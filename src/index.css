@@ -114,6 +114,7 @@
 
 .feedback-container .feedback-card:last-child {
   margin-right: 0px;
+  white-space: pre-line;
 }
 
 .feedback-card {
@@ -122,6 +123,36 @@
 
 .feedback-card:hover {
   background: var(--black-gradient);
+}
+
+.heading-t {
+  position: relative;
+}
+
+.fb-review {
+  width: auto;
+  height: 100px;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.fb-review:hover {
+  transform: scale(1.1);
+  transition: .2s;
+}
+
+.google-review {
+  width: auto;
+  height: 70px;
+  margin-top: 6px;
+  margin-right: 15px;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.google-review:hover {
+  transform: scale(1.1);
+  transition: .2s;
 }
 
 .blue__gradient {

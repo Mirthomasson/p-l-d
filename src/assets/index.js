@@ -12,12 +12,18 @@ import close from "./close.svg";
 import free from "./free.png";
 import facebook from "./facebook.svg";
 import cat from "./cat.jpeg";
+import rs from "./rs.png";
+import fb from "./fb-review.png";
+import goo from "./google-reviews.png";
 // import instagram from "./instagram.svg";
 // import linkedin from "./linkedin.svg";
 // import twitter from "./twitter.svg";
 
 export {
   truck,
+  goo,
+  fb,
+  rs,
   cabView,
   logo,
   quotes,
