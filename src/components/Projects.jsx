@@ -4,7 +4,7 @@ import { layout } from "../style";
 // import Button from "./Button";
 
 const Projects = () => (
-  <section id="projects" className={layout.section}>
+  <section id="projects" className={`${layout.section} gap-[5em]`}>
 {/*    <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
         EMPTY
@@ -20,7 +20,7 @@ const Projects = () => (
     </div>
 
     <div className={layout.sectionImg}>
-      <img src={cabView} alt="cab view" className="w-[550px] h-[auto] rounded-[10px]" />
+      <img src={cabView} alt="cab view" className="w-[550px] h-[auto] rounded-[10px] -ml-20" />
     </div>
   </section>
 );

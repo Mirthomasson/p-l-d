@@ -125,10 +125,6 @@
   background: var(--black-gradient);
 }
 
-.heading-t {
-  position: relative;
-}
-
 .fb-review {
   width: auto;
   height: 100px;
@@ -412,3 +408,4 @@ textarea {
   padding-top: .5em;
   font-weight: bolder;
 }
+
