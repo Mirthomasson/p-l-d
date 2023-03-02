@@ -20,7 +20,7 @@ const Projects = () => (
     </div>
 
     <div className={layout.sectionImg}>
-      <img src={cabView} alt="cab view" className="w-[550px] h-[auto] rounded-[10px] -ml-20" />
+      <img src={cabView} alt="cab view" className="w-[550px] h-[auto] rounded-[10px]" />
     </div>
   </section>
 );

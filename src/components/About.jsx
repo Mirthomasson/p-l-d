@@ -4,7 +4,7 @@ import styles, { layout } from "../style";
 const About = () => (
   <section id="about" className={layout.sectionReverse}>
     <div className={layout.sectionImgReverse}>
-      <img src={truck} alt="PLD Truck" className="w-[auto] max-h-[400px] relative z-[5] rounded-[10px]" />
+      <img src={truck} alt="PLD Truck" className="w-[auto] max-h-[300px] relative z-[5] rounded-[10px]" />
 
       {/* gradient start */}
       <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
