@@ -35,7 +35,7 @@ const Hero = () => {
         {/* BLANK */}
         </h1>
         <p className={`${styles.paragraph} max-w-[440px] mt-5`}>
-        Land Clearing, Forestry Mulching, Demolition, and ground services
+        Land Clearing, Forestry Mulching, Demolition, and Ground Services
         </p>
       </div>
 
