@@ -412,10 +412,20 @@ textarea {
 .estimate {
   cursor: pointer;
   opacity: 0.8;
-  transition: 0.2s;
+  transition: 0.4s;
 }
 
 .estimate:hover {
   opacity: 1;
+  transition: 0.4s;
+}
+
+.nav-text:hover {
+  color: #33bbcf;
   transition: 0.2s;
+}
+
+.request-button:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
 }
