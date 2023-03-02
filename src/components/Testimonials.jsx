@@ -4,7 +4,7 @@ import FeedbackCard from "./FeedbackCard";
 import { fb, goo } from "../assets";
 
 const Testimonials = () => (
-  <section id="clients" className={`${styles.paddingY} ${styles.flexCenter} flex-col relative`}>
+  <section id="testimonials" className={`${styles.paddingY} ${styles.flexCenter} flex-col relative`}>
     <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient bottom-40" />
 
     <div className="flex justify-center align-middle items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1] gap-40">

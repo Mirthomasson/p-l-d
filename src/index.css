@@ -409,3 +409,13 @@ textarea {
   font-weight: bolder;
 }
 
+.estimate {
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.2s;
+}
+
+.estimate:hover {
+  opacity: 1;
+  transition: 0.2s;
+}
