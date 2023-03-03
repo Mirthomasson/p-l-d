@@ -9,7 +9,7 @@ const Contact = () => (
       Please feel free to contact Premier Land Development for estimates, consultations, or any additional information and questions.
       </p>
       <p className={`${styles.paragraph} max-w-[270px] mt-5`}>434-386-1898</p>
-      <p className={`${styles.paragraph} max-w-[270px] mt-1 ss:text-[18px] text-[13.8px]`}>jglover@premierlanddevelopment.com</p>
+      <a href="mailto:jglover@premierlanddevelopment.com?subject=Email from Website" className={`${styles.paragraph} email max-w-[270px] mt-1 ss:text-[18px] text-[13.8px]`}>jglover@premierlanddevelopment.com</a>
     </div>
 
     <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10`}>

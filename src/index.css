@@ -429,3 +429,14 @@ textarea {
   transform: scale(1.1);
   transition: 0.3s;
 }
+
+
+.email {
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.email:hover {
+  color: #33bbcf;
+  transition: 0.2s;
+}
