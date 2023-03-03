@@ -440,3 +440,34 @@ textarea {
   color: #33bbcf;
   transition: 0.2s;
 }
+
+
+.mini-footer {
+  margin-right: -30em;
+  font-size: 16px;
+  background-color: #010606;
+}
+
+.mini-footer a {
+text-decoration: none;
+color: #8f9296;
+transition: all .2s ease;
+}
+
+.mini-footer a:hover {
+  color: darkcyan;
+  transition: all .2s ease;
+}
+
+.mini-footer span {
+  color: #8f9296;
+}
+
+.fb-icon {
+  transition: 0.2s;
+}
+
+.fb-icon:hover {
+  transform: scale(1.2);
+  transition: 0.2s;
+}

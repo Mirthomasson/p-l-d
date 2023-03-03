@@ -39,12 +39,20 @@ const Footer = () => (
       </div> */}
     </div>
 
-    <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45]">
+    <div className="w-full flex align-middle justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45]">
       <p className="font-poppins font-normal text-center text-[18px] leading-[27px] text-white">
         Copyright Ⓒ 2023 Premier Land Development. All Rights Reserved.
       </p>
+      <div class="mini-footer">
+			<a
+				href="https://www.mirandathomasson.com/"
+				target="_blank"
+				rel="noreferrer"
+				>➡️ Built and Maintained by: Miranda Thomasson 👋🏼</a
+			>
+		</div>
 
-      <div className="flex flex-row md:mt-0 mt-6">
+      <div className="flex flex-row md:mt-0 mt-6 fb-icon">
         {socialMedia.map((social, index) => (
           <img
             key={social.id}
