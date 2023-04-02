@@ -4,7 +4,7 @@ import { layout } from "../style";
 // import Button from "./Button";
 
 const Projects = () => (
-  <section id="projects" className={`${layout.section} gap-[5em]`}>
+  <section id="projects">
 {/*    <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
         EMPTY
@@ -15,12 +15,8 @@ const Projects = () => (
 
       <Button styles={`mt-10`} />
 </div> */}
-<div className={layout.sectionImg}>
-      <img src={skid} alt="skidsteer" className="w-[550px] h-[auto] rounded-[10px]" />
-    </div>
-
-    <div className={layout.sectionImg}>
-      <img src={cabView} alt="cab view" className="w-[550px] h-[auto] rounded-[10px]" />
+<div className={`flex justify-center align-middle items-center`}>
+    <div class="elfsight-app-801502d0-c0de-4de3-8818-41456db7c7d5"></div>
     </div>
   </section>
 );
