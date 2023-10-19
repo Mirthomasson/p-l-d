@@ -45,9 +45,6 @@ const Footer = () => (
       </p>
       <div class="mini-footer">
 			<a
-				href="https://www.mirandathomasson.com/"
-				target="_blank"
-				rel="noreferrer"
 				>➡️ Built and Maintained by: Miranda Thomasson 👋🏼</a
 			>
 		</div>
